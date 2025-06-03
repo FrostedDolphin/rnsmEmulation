@@ -17,11 +17,12 @@ foreach ($file in $fileNames) {
 
 # Add service names and weak passwords to soup.txt
 $soupContent = @(
-    "Service: RDP | Password: Password123",
-    "Service: MSSQL | Password: admin1!",
-    "Service: FTP | Password: letmein",
-    "Service: SSH | Password: 12345678",
-    "Service: SMB | Password: qwerty"
+    "RDP ILoveCampbells:)",
+    "MSSQL MunchkinIsLoveMunchkinIsLife",
+    "FTP LEMMEIN",
+    "SSH GimmeSomeCiggies",
+    "SMB 4Feet8And3Quarters",
+    "Amanda IsMissing"
 )
 $soupFilePath = Join-Path -Path $folderPath -ChildPath "soup.txt"
 $soupContent | Out-File -FilePath $soupFilePath -Encoding UTF8
